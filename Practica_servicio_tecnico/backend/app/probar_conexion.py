@@ -1,4 +1,4 @@
-from config.conexion import conectar
+﻿from app.config.conexion import conectar
 
 conexion = conectar()
 
@@ -9,6 +9,6 @@ if conexion:
     print("==============================")
     conexion.close()
 else:
-     print("==============================")
-print("ERROR DE CONEXIÓN")
-print("==============================")
+    print("==============================")
+    print("ERROR DE CONEXIÓN")
+    print("==============================")
