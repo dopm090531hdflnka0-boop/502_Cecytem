@@ -16,7 +16,6 @@ def conectar():
             user=USER,
             password=PASSWORD,
             database=DATABASE,
-            autocommit=True,
         )
         if conexion.is_connected():
             print("Conexión exitosa a la base de datos")
